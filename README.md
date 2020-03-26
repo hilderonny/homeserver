@@ -11,6 +11,7 @@ mkdir -p /gitlab/hilderonny
 cd /gitlab/hilderonny
 git clone https://gitlab.com/hilderonny/homeserver.git
 cd homeserver
+git config credential.helper store
 sh ./install.sh
 ```
 
