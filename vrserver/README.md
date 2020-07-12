@@ -40,6 +40,9 @@ WantedBy=multi-user.target
 ```
 
 ```sh
+# Dienst einrichten und starten
 systemctl enable vrserver.service
 service vrserver start
+# Medienverzeichnis unter public einrichten, sodass es im Web unter /media erreichbar ist
+ln -s /mnt/disk4 ./public/media
 ```
