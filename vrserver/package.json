@@ -1,0 +1,14 @@
+{
+  "name": "vrserver",
+  "version": "1.0.0",
+  "description": "Das ist ein Express-Webserver, der mit ThreeJS oder Babylon (weiß ich noch nicht), eine Art Holodeck enthält.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
